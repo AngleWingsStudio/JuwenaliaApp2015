@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881648641A967A5A00373948 /* PlanJuwenalii.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648631A967A5A00373948 /* PlanJuwenalii.storyboard */; };
+		881648681A968BB300373948 /* Aktualnosci.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648671A968BB300373948 /* Aktualnosci.storyboard */; };
+		8816486A1A968BDB00373948 /* Mapa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648691A968BDB00373948 /* Mapa.storyboard */; };
+		8816486C1A968C1E00373948 /* Kontakt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816486B1A968C1E00373948 /* Kontakt.storyboard */; };
+		8816486E1A968C5B00373948 /* oJuwenaliach.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816486D1A968C5B00373948 /* oJuwenaliach.storyboard */; };
+		881648701A968C9200373948 /* Sponsorzy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816486F1A968C9200373948 /* Sponsorzy.storyboard */; };
+		881648721A968CA700373948 /* Kamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648711A968CA700373948 /* Kamera.storyboard */; };
+		881648751A9690B500373948 /* marczak_adam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881648741A9690B500373948 /* marczak_adam.jpg */; };
+		881648771A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881648761A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */; };
+		881648791A96976400373948 /* Poniedzialek.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648781A96976400373948 /* Poniedzialek.storyboard */; };
+		8816487B1A96977F00373948 /* Wtorek.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816487A1A96977F00373948 /* Wtorek.storyboard */; };
+		8816487D1A96979400373948 /* Sroda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816487C1A96979400373948 /* Sroda.storyboard */; };
+		8816487F1A9697A600373948 /* Czwartek.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8816487E1A9697A600373948 /* Czwartek.storyboard */; };
+		881648811A9697B500373948 /* Piatek.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648801A9697B500373948 /* Piatek.storyboard */; };
+		881648831A9697C900373948 /* Sobota.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648821A9697C900373948 /* Sobota.storyboard */; };
+		881648851A9697D800373948 /* Niedziela.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648841A9697D800373948 /* Niedziela.storyboard */; };
 		89D5EA9F1A9290E80008B234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EA9E1A9290E80008B234 /* main.m */; };
 		89D5EAA21A9290E80008B234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAA11A9290E80008B234 /* AppDelegate.m */; };
 		89D5EAA51A9290E80008B234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAA41A9290E80008B234 /* ViewController.m */; };
@@ -27,6 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		881648631A967A5A00373948 /* PlanJuwenalii.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlanJuwenalii.storyboard; sourceTree = "<group>"; };
+		881648671A968BB300373948 /* Aktualnosci.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Aktualnosci.storyboard; sourceTree = "<group>"; };
+		881648691A968BDB00373948 /* Mapa.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mapa.storyboard; sourceTree = "<group>"; };
+		8816486B1A968C1E00373948 /* Kontakt.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kontakt.storyboard; sourceTree = "<group>"; };
+		8816486D1A968C5B00373948 /* oJuwenaliach.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = oJuwenaliach.storyboard; sourceTree = "<group>"; };
+		8816486F1A968C9200373948 /* Sponsorzy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sponsorzy.storyboard; sourceTree = "<group>"; };
+		881648711A968CA700373948 /* Kamera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kamera.storyboard; sourceTree = "<group>"; };
+		881648741A9690B500373948 /* marczak_adam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marczak_adam.jpg; path = ../../Downloads/marczak_adam.jpg; sourceTree = "<group>"; };
+		881648761A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mapa_3D_kampus_pwr_10_10_2012_www.jpg; path = ../../Downloads/mapa_3D_kampus_pwr_10_10_2012_www.jpg; sourceTree = "<group>"; };
+		881648781A96976400373948 /* Poniedzialek.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Poniedzialek.storyboard; sourceTree = "<group>"; };
+		8816487A1A96977F00373948 /* Wtorek.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wtorek.storyboard; sourceTree = "<group>"; };
+		8816487C1A96979400373948 /* Sroda.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sroda.storyboard; sourceTree = "<group>"; };
+		8816487E1A9697A600373948 /* Czwartek.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Czwartek.storyboard; sourceTree = "<group>"; };
+		881648801A9697B500373948 /* Piatek.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Piatek.storyboard; sourceTree = "<group>"; };
+		881648821A9697C900373948 /* Sobota.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sobota.storyboard; sourceTree = "<group>"; };
+		881648841A9697D800373948 /* Niedziela.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Niedziela.storyboard; sourceTree = "<group>"; };
 		89D5EA991A9290E80008B234 /* Juwenalia app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juwenalia app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D5EA9D1A9290E80008B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D5EA9E1A9290E80008B234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,9 +92,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		881648731A96908700373948 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				881648761A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */,
+				881648741A9690B500373948 /* marczak_adam.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		89D5EA901A9290E80008B234 = {
 			isa = PBXGroup;
 			children = (
+				881648731A96908700373948 /* Images */,
 				89D5EA9B1A9290E80008B234 /* Juwenalia app */,
 				89D5EAB51A9290E80008B234 /* Juwenalia appTests */,
 				89D5EA9A1A9290E80008B234 /* Products */,
@@ -86,6 +128,20 @@
 				89D5EAA31A9290E80008B234 /* ViewController.h */,
 				89D5EAA41A9290E80008B234 /* ViewController.m */,
 				89D5EAA61A9290E80008B234 /* Main.storyboard */,
+				881648631A967A5A00373948 /* PlanJuwenalii.storyboard */,
+				881648781A96976400373948 /* Poniedzialek.storyboard */,
+				8816487A1A96977F00373948 /* Wtorek.storyboard */,
+				8816487C1A96979400373948 /* Sroda.storyboard */,
+				8816487E1A9697A600373948 /* Czwartek.storyboard */,
+				881648801A9697B500373948 /* Piatek.storyboard */,
+				881648821A9697C900373948 /* Sobota.storyboard */,
+				881648841A9697D800373948 /* Niedziela.storyboard */,
+				881648671A968BB300373948 /* Aktualnosci.storyboard */,
+				881648691A968BDB00373948 /* Mapa.storyboard */,
+				8816486B1A968C1E00373948 /* Kontakt.storyboard */,
+				8816486D1A968C5B00373948 /* oJuwenaliach.storyboard */,
+				8816486F1A968C9200373948 /* Sponsorzy.storyboard */,
+				881648711A968CA700373948 /* Kamera.storyboard */,
 				89D5EAA91A9290E80008B234 /* Images.xcassets */,
 				89D5EAAB1A9290E80008B234 /* LaunchScreen.xib */,
 				89D5EA9C1A9290E80008B234 /* Supporting Files */,
@@ -201,7 +257,23 @@
 			files = (
 				89D5EAA81A9290E80008B234 /* Main.storyboard in Resources */,
 				89D5EAAD1A9290E80008B234 /* LaunchScreen.xib in Resources */,
+				881648751A9690B500373948 /* marczak_adam.jpg in Resources */,
+				881648641A967A5A00373948 /* PlanJuwenalii.storyboard in Resources */,
+				881648791A96976400373948 /* Poniedzialek.storyboard in Resources */,
+				8816487F1A9697A600373948 /* Czwartek.storyboard in Resources */,
 				89D5EAAA1A9290E80008B234 /* Images.xcassets in Resources */,
+				881648771A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg in Resources */,
+				881648831A9697C900373948 /* Sobota.storyboard in Resources */,
+				8816487D1A96979400373948 /* Sroda.storyboard in Resources */,
+				881648701A968C9200373948 /* Sponsorzy.storyboard in Resources */,
+				881648721A968CA700373948 /* Kamera.storyboard in Resources */,
+				8816486C1A968C1E00373948 /* Kontakt.storyboard in Resources */,
+				881648811A9697B500373948 /* Piatek.storyboard in Resources */,
+				8816487B1A96977F00373948 /* Wtorek.storyboard in Resources */,
+				8816486A1A968BDB00373948 /* Mapa.storyboard in Resources */,
+				881648851A9697D800373948 /* Niedziela.storyboard in Resources */,
+				881648681A968BB300373948 /* Aktualnosci.storyboard in Resources */,
+				8816486E1A968C5B00373948 /* oJuwenaliach.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +486,7 @@
 				89D5EABE1A9290E80008B234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89D5EABF1A9290E80008B234 /* Build configuration list for PBXNativeTarget "Juwenalia appTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +495,7 @@
 				89D5EAC11A9290E80008B234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
         <!--Sobota-->
         <scene sceneID="lam-li-QjU">
             <objects>
-                <viewController title="Sobota" id="Mut-Ha-y6I" sceneMemberID="viewController">
+                <viewController title="Sobota" id="Mut-Ha-y6I" customClass="Sobota" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Sni-XD-hoz"/>
                         <viewControllerLayoutGuide type="bottom" id="6gp-vj-BPv"/>

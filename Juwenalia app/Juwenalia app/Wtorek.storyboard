@@ -7,7 +7,7 @@
         <!--Wtorek-->
         <scene sceneID="vGr-NT-xbz">
             <objects>
-                <viewController title="Wtorek" id="q3M-m5-6v5" sceneMemberID="viewController">
+                <viewController title="Wtorek" id="q3M-m5-6v5" customClass="Wtorek" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NdV-yF-hjF"/>
                         <viewControllerLayoutGuide type="bottom" id="y0K-Df-6By"/>

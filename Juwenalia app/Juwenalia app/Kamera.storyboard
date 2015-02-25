@@ -7,7 +7,7 @@
         <!--Nagraj film-->
         <scene sceneID="pHY-ja-E2u">
             <objects>
-                <viewController title="Nagraj film" id="Tqm-Gh-P9c" sceneMemberID="viewController">
+                <viewController title="Nagraj film" id="Tqm-Gh-P9c" customClass="Kamera" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Qa-Qj-DV2"/>
                         <viewControllerLayoutGuide type="bottom" id="XaG-CA-G16"/>

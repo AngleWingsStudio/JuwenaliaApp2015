@@ -7,7 +7,7 @@
         <!--Plan Juwenalii-->
         <scene sceneID="Tix-PG-ve0">
             <objects>
-                <viewController title="Plan Juwenalii" id="7xC-fw-1VT" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Plan Juwenalii" id="7xC-fw-1VT" customClass="PlanJuwenalii" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vzo-Vi-TYF"/>
                         <viewControllerLayoutGuide type="bottom" id="OZD-TT-Buo"/>
@@ -19,6 +19,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wtorek  5.05" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="none" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="4vT-NS-RFf">
                                 <rect key="frame" x="171" y="143" width="258" height="40"/>
                                 <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" staticText="YES"/>
+                                </accessibility>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -58,11 +61,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Poniedziałek  4.05" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="none" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="Fbb-P7-SQd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="none" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="Fbb-P7-SQd">
                                 <rect key="frame" x="171" y="68" width="258" height="40"/>
                                 <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES"/>
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <attributedString key="attributedText">
+                                    <fragment content="Poniedziałek  4.05">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="26" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

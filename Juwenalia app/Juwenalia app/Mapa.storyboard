@@ -7,7 +7,7 @@
         <!--Mapa-->
         <scene sceneID="qGj-yo-3fv">
             <objects>
-                <viewController title="Mapa" id="OSi-6H-49m" sceneMemberID="viewController">
+                <viewController title="Mapa" id="OSi-6H-49m" customClass="Mapa" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="T93-21-L4G"/>
                         <viewControllerLayoutGuide type="bottom" id="YPX-V5-SBa"/>

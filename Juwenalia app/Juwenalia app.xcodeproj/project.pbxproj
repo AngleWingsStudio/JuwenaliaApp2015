@@ -23,6 +23,20 @@
 		881648811A9697B500373948 /* Piatek.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648801A9697B500373948 /* Piatek.storyboard */; };
 		881648831A9697C900373948 /* Sobota.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648821A9697C900373948 /* Sobota.storyboard */; };
 		881648851A9697D800373948 /* Niedziela.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881648841A9697D800373948 /* Niedziela.storyboard */; };
+		883E3E4D1A9D025C00F25BE1 /* PlanJuwenalii.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */; };
+		883E3E501A9D031800F25BE1 /* Poniedzialek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E4F1A9D031800F25BE1 /* Poniedzialek.m */; };
+		883E3E531A9D033100F25BE1 /* Wtorek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E521A9D033100F25BE1 /* Wtorek.m */; };
+		883E3E561A9D035300F25BE1 /* Sroda.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E551A9D035300F25BE1 /* Sroda.m */; };
+		883E3E591A9D060A00F25BE1 /* Czwartek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E581A9D060A00F25BE1 /* Czwartek.m */; };
+		883E3E5C1A9D066800F25BE1 /* Piatek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E5B1A9D066800F25BE1 /* Piatek.m */; };
+		883E3E5F1A9D068300F25BE1 /* Sobota.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E5E1A9D068300F25BE1 /* Sobota.m */; };
+		883E3E621A9D069800F25BE1 /* Niedziela.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E611A9D069800F25BE1 /* Niedziela.m */; };
+		883E3E651A9D06BD00F25BE1 /* Aktualnosci.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E641A9D06BD00F25BE1 /* Aktualnosci.m */; };
+		883E3E681A9D070100F25BE1 /* Mapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E671A9D070100F25BE1 /* Mapa.m */; };
+		883E3E6B1A9D073500F25BE1 /* Kontakt.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E6A1A9D073400F25BE1 /* Kontakt.m */; };
+		883E3E6E1A9D077700F25BE1 /* oJuwenaliach.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E6D1A9D077700F25BE1 /* oJuwenaliach.m */; };
+		883E3E711A9D079E00F25BE1 /* Sponsorzy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E701A9D079E00F25BE1 /* Sponsorzy.m */; };
+		883E3E741A9D07B200F25BE1 /* Kamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E731A9D07B200F25BE1 /* Kamera.m */; };
 		89D5EA9F1A9290E80008B234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EA9E1A9290E80008B234 /* main.m */; };
 		89D5EAA21A9290E80008B234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAA11A9290E80008B234 /* AppDelegate.m */; };
 		89D5EAA51A9290E80008B234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAA41A9290E80008B234 /* ViewController.m */; };
@@ -59,6 +73,34 @@
 		881648801A9697B500373948 /* Piatek.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Piatek.storyboard; sourceTree = "<group>"; };
 		881648821A9697C900373948 /* Sobota.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sobota.storyboard; sourceTree = "<group>"; };
 		881648841A9697D800373948 /* Niedziela.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Niedziela.storyboard; sourceTree = "<group>"; };
+		883E3E4B1A9D025C00F25BE1 /* PlanJuwenalii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanJuwenalii.h; path = ../PlanJuwenalii.h; sourceTree = "<group>"; };
+		883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanJuwenalii.m; path = ../PlanJuwenalii.m; sourceTree = "<group>"; };
+		883E3E4E1A9D031800F25BE1 /* Poniedzialek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poniedzialek.h; sourceTree = "<group>"; };
+		883E3E4F1A9D031800F25BE1 /* Poniedzialek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poniedzialek.m; sourceTree = "<group>"; };
+		883E3E511A9D033100F25BE1 /* Wtorek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wtorek.h; sourceTree = "<group>"; };
+		883E3E521A9D033100F25BE1 /* Wtorek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wtorek.m; sourceTree = "<group>"; };
+		883E3E541A9D035300F25BE1 /* Sroda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sroda.h; sourceTree = "<group>"; };
+		883E3E551A9D035300F25BE1 /* Sroda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sroda.m; sourceTree = "<group>"; };
+		883E3E571A9D060A00F25BE1 /* Czwartek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Czwartek.h; sourceTree = "<group>"; };
+		883E3E581A9D060A00F25BE1 /* Czwartek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Czwartek.m; sourceTree = "<group>"; };
+		883E3E5A1A9D066800F25BE1 /* Piatek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piatek.h; sourceTree = "<group>"; };
+		883E3E5B1A9D066800F25BE1 /* Piatek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piatek.m; sourceTree = "<group>"; };
+		883E3E5D1A9D068300F25BE1 /* Sobota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sobota.h; sourceTree = "<group>"; };
+		883E3E5E1A9D068300F25BE1 /* Sobota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sobota.m; sourceTree = "<group>"; };
+		883E3E601A9D069800F25BE1 /* Niedziela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Niedziela.h; sourceTree = "<group>"; };
+		883E3E611A9D069800F25BE1 /* Niedziela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Niedziela.m; sourceTree = "<group>"; };
+		883E3E631A9D06BD00F25BE1 /* Aktualnosci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aktualnosci.h; sourceTree = "<group>"; };
+		883E3E641A9D06BD00F25BE1 /* Aktualnosci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aktualnosci.m; sourceTree = "<group>"; };
+		883E3E661A9D070100F25BE1 /* Mapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapa.h; sourceTree = "<group>"; };
+		883E3E671A9D070100F25BE1 /* Mapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapa.m; sourceTree = "<group>"; };
+		883E3E691A9D073400F25BE1 /* Kontakt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kontakt.h; sourceTree = "<group>"; };
+		883E3E6A1A9D073400F25BE1 /* Kontakt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kontakt.m; sourceTree = "<group>"; };
+		883E3E6C1A9D077700F25BE1 /* oJuwenaliach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oJuwenaliach.h; sourceTree = "<group>"; };
+		883E3E6D1A9D077700F25BE1 /* oJuwenaliach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oJuwenaliach.m; sourceTree = "<group>"; };
+		883E3E6F1A9D079E00F25BE1 /* Sponsorzy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sponsorzy.h; sourceTree = "<group>"; };
+		883E3E701A9D079E00F25BE1 /* Sponsorzy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sponsorzy.m; sourceTree = "<group>"; };
+		883E3E721A9D07B200F25BE1 /* Kamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kamera.h; sourceTree = "<group>"; };
+		883E3E731A9D07B200F25BE1 /* Kamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kamera.m; sourceTree = "<group>"; };
 		89D5EA991A9290E80008B234 /* Juwenalia app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juwenalia app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D5EA9D1A9290E80008B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D5EA9E1A9290E80008B234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -129,19 +171,47 @@
 				89D5EAA41A9290E80008B234 /* ViewController.m */,
 				89D5EAA61A9290E80008B234 /* Main.storyboard */,
 				881648631A967A5A00373948 /* PlanJuwenalii.storyboard */,
+				883E3E4B1A9D025C00F25BE1 /* PlanJuwenalii.h */,
+				883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */,
 				881648781A96976400373948 /* Poniedzialek.storyboard */,
+				883E3E4E1A9D031800F25BE1 /* Poniedzialek.h */,
+				883E3E4F1A9D031800F25BE1 /* Poniedzialek.m */,
 				8816487A1A96977F00373948 /* Wtorek.storyboard */,
+				883E3E511A9D033100F25BE1 /* Wtorek.h */,
+				883E3E521A9D033100F25BE1 /* Wtorek.m */,
 				8816487C1A96979400373948 /* Sroda.storyboard */,
+				883E3E541A9D035300F25BE1 /* Sroda.h */,
+				883E3E551A9D035300F25BE1 /* Sroda.m */,
 				8816487E1A9697A600373948 /* Czwartek.storyboard */,
+				883E3E571A9D060A00F25BE1 /* Czwartek.h */,
+				883E3E581A9D060A00F25BE1 /* Czwartek.m */,
 				881648801A9697B500373948 /* Piatek.storyboard */,
+				883E3E5A1A9D066800F25BE1 /* Piatek.h */,
+				883E3E5B1A9D066800F25BE1 /* Piatek.m */,
 				881648821A9697C900373948 /* Sobota.storyboard */,
+				883E3E5D1A9D068300F25BE1 /* Sobota.h */,
+				883E3E5E1A9D068300F25BE1 /* Sobota.m */,
 				881648841A9697D800373948 /* Niedziela.storyboard */,
+				883E3E601A9D069800F25BE1 /* Niedziela.h */,
+				883E3E611A9D069800F25BE1 /* Niedziela.m */,
 				881648671A968BB300373948 /* Aktualnosci.storyboard */,
+				883E3E631A9D06BD00F25BE1 /* Aktualnosci.h */,
+				883E3E641A9D06BD00F25BE1 /* Aktualnosci.m */,
 				881648691A968BDB00373948 /* Mapa.storyboard */,
+				883E3E661A9D070100F25BE1 /* Mapa.h */,
+				883E3E671A9D070100F25BE1 /* Mapa.m */,
 				8816486B1A968C1E00373948 /* Kontakt.storyboard */,
+				883E3E691A9D073400F25BE1 /* Kontakt.h */,
+				883E3E6A1A9D073400F25BE1 /* Kontakt.m */,
 				8816486D1A968C5B00373948 /* oJuwenaliach.storyboard */,
+				883E3E6C1A9D077700F25BE1 /* oJuwenaliach.h */,
+				883E3E6D1A9D077700F25BE1 /* oJuwenaliach.m */,
 				8816486F1A968C9200373948 /* Sponsorzy.storyboard */,
+				883E3E6F1A9D079E00F25BE1 /* Sponsorzy.h */,
+				883E3E701A9D079E00F25BE1 /* Sponsorzy.m */,
 				881648711A968CA700373948 /* Kamera.storyboard */,
+				883E3E721A9D07B200F25BE1 /* Kamera.h */,
+				883E3E731A9D07B200F25BE1 /* Kamera.m */,
 				89D5EAA91A9290E80008B234 /* Images.xcassets */,
 				89D5EAAB1A9290E80008B234 /* LaunchScreen.xib */,
 				89D5EA9C1A9290E80008B234 /* Supporting Files */,
@@ -291,9 +361,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883E3E681A9D070100F25BE1 /* Mapa.m in Sources */,
+				883E3E591A9D060A00F25BE1 /* Czwartek.m in Sources */,
+				883E3E561A9D035300F25BE1 /* Sroda.m in Sources */,
 				89D5EAA51A9290E80008B234 /* ViewController.m in Sources */,
+				883E3E6B1A9D073500F25BE1 /* Kontakt.m in Sources */,
+				883E3E6E1A9D077700F25BE1 /* oJuwenaliach.m in Sources */,
+				883E3E5F1A9D068300F25BE1 /* Sobota.m in Sources */,
+				883E3E4D1A9D025C00F25BE1 /* PlanJuwenalii.m in Sources */,
+				883E3E501A9D031800F25BE1 /* Poniedzialek.m in Sources */,
+				883E3E5C1A9D066800F25BE1 /* Piatek.m in Sources */,
+				883E3E621A9D069800F25BE1 /* Niedziela.m in Sources */,
 				89D5EAA21A9290E80008B234 /* AppDelegate.m in Sources */,
 				89D5EA9F1A9290E80008B234 /* main.m in Sources */,
+				883E3E741A9D07B200F25BE1 /* Kamera.m in Sources */,
+				883E3E711A9D079E00F25BE1 /* Sponsorzy.m in Sources */,
+				883E3E651A9D06BD00F25BE1 /* Aktualnosci.m in Sources */,
+				883E3E531A9D033100F25BE1 /* Wtorek.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
         <!--O Juwenaliach-->
         <scene sceneID="cGX-E7-bAA">
             <objects>
-                <viewController title="O Juwenaliach" id="dLX-Wb-8Ub" sceneMemberID="viewController">
+                <viewController title="O Juwenaliach" id="dLX-Wb-8Ub" customClass="oJuwenaliach" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qAR-jD-36k"/>
                         <viewControllerLayoutGuide type="bottom" id="yyv-tm-sNg"/>

@@ -7,7 +7,7 @@
         <!--Sponsorzy-->
         <scene sceneID="3G5-hH-uCH">
             <objects>
-                <viewController title="Sponsorzy" id="Keu-Xg-08L" sceneMemberID="viewController">
+                <viewController title="Sponsorzy" id="Keu-Xg-08L" customClass="Sponsorzy" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5hd-cz-MWE"/>
                         <viewControllerLayoutGuide type="bottom" id="00C-HJ-fgp"/>

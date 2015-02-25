@@ -7,7 +7,7 @@
         <!--Piątek-->
         <scene sceneID="cZY-9y-Sv6">
             <objects>
-                <viewController title="Piątek" id="DeQ-86-mDO" sceneMemberID="viewController">
+                <viewController title="Piątek" id="DeQ-86-mDO" customClass="Piatek" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n8o-pp-O85"/>
                         <viewControllerLayoutGuide type="bottom" id="hbb-Mz-9I4"/>

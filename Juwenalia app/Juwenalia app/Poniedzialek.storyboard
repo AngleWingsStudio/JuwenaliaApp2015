@@ -7,7 +7,7 @@
         <!--Poniedziałek-->
         <scene sceneID="1g8-EJ-twC">
             <objects>
-                <viewController title="Poniedziałek" id="YAb-dB-n08" sceneMemberID="viewController">
+                <viewController title="Poniedziałek" id="YAb-dB-n08" customClass="Poniedzialek" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="clC-aV-cVV"/>
                         <viewControllerLayoutGuide type="bottom" id="LQ7-Hq-YTY"/>
@@ -120,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dlg-g0-3nM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="369" y="370"/>
+            <point key="canvasLocation" x="439" y="371"/>
         </scene>
     </scenes>
 </document>

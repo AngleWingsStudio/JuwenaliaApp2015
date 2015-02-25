@@ -7,7 +7,7 @@
         <!--Aktualności-->
         <scene sceneID="4SZ-Zl-bLX">
             <objects>
-                <viewController title="Aktualności" id="6ny-5q-oxe" sceneMemberID="viewController">
+                <viewController title="Aktualności" id="6ny-5q-oxe" customClass="Aktualnosci" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fMh-Eo-Bpq"/>
                         <viewControllerLayoutGuide type="bottom" id="Zdv-mz-aev"/>

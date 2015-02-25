@@ -7,7 +7,7 @@
         <!--Środa-->
         <scene sceneID="xk1-1m-Bqn">
             <objects>
-                <viewController title="Środa" id="F3N-Ey-oQB" sceneMemberID="viewController">
+                <viewController title="Środa" id="F3N-Ey-oQB" customClass="Sroda" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AWK-2U-k11"/>
                         <viewControllerLayoutGuide type="bottom" id="9fd-xs-LpK"/>

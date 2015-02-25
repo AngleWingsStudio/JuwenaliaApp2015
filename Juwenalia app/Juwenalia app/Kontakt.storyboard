@@ -7,7 +7,7 @@
         <!--Kontakt-->
         <scene sceneID="Teh-LK-awo">
             <objects>
-                <viewController title="Kontakt" id="eL7-X3-r87" sceneMemberID="viewController">
+                <viewController title="Kontakt" id="eL7-X3-r87" customClass="Kontakt" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="weK-Pq-jzf"/>
                         <viewControllerLayoutGuide type="bottom" id="cub-8g-vto"/>

@@ -7,6 +7,7 @@
 //
 
 #import "Mapa.h"
+#import "ViewController.h"
 
 @implementation Mapa
 

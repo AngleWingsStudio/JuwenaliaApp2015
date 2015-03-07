@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Czwartek : UIViewController
+{
+    IBOutlet UIScrollView *scroller;}
 
 @end

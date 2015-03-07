@@ -10,4 +10,12 @@
 
 @implementation Czwartek
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize:CGSizeMake(320, 580)];
+    
+}
+
 @end

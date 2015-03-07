@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface Sobota : UIViewController
-
+{
+    IBOutlet UIScrollView *scroller;}
 @end

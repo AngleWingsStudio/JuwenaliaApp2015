@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface oJuwenaliach : UIViewController
-
+{
+    IBOutlet UIScrollView *scroller;
+}
 @end

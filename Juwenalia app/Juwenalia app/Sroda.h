@@ -10,4 +10,7 @@
 
 @interface Sroda : UIViewController
 
+{
+    IBOutlet UIScrollView *scroller;}
+
 @end

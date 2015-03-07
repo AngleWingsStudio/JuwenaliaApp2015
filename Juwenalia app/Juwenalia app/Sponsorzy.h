@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface Sponsorzy : UIViewController
+{
+    
+    IBOutlet UIScrollView *scroller;}
 
 @end

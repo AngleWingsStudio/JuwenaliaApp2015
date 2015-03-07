@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Piatek : UIViewController
+{
+    IBOutlet UIScrollView *scroller;}
 
 @end

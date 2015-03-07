@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface Niedziela : UIViewController
-
+{
+    IBOutlet UIScrollView *scroller;}
 @end

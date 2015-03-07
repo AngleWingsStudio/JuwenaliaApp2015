@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Wtorek : UIViewController
+{
+    IBOutlet UIScrollView *scroller;}
 
 @end

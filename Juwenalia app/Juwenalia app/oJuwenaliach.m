@@ -10,4 +10,10 @@
 
 @implementation oJuwenaliach
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [scroller setScrollEnabled:YES];
+    [scroller setContentSize:CGSizeMake(320, 624)];
+}
 @end

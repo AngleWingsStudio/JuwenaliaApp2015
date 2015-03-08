@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		881648751A9690B500373948 /* marczak_adam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881648741A9690B500373948 /* marczak_adam.jpg */; };
-		881648771A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881648761A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */; };
 		883E3E4D1A9D025C00F25BE1 /* PlanJuwenalii.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */; };
 		883E3E501A9D031800F25BE1 /* Poniedzialek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E4F1A9D031800F25BE1 /* Poniedzialek.m */; };
 		883E3E531A9D033100F25BE1 /* Wtorek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E521A9D033100F25BE1 /* Wtorek.m */; };
@@ -39,6 +38,7 @@
 		888966FC1AACD88800F7065A /* rect4195.png in Resources */ = {isa = PBXBuildFile; fileRef = 888966F61AACD88800F7065A /* rect4195.png */; };
 		888966FD1AACD88800F7065A /* sendphoto_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 888966F71AACD88800F7065A /* sendphoto_color.png */; };
 		888966FE1AACD88800F7065A /* twitter-312464_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 888966F81AACD88800F7065A /* twitter-312464_640.png */; };
+		888967001AACD92E00F7065A /* mapa_3D_kampus_pwr_10_10_2012_www.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888966FF1AACD92E00F7065A /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */; };
 		89D5EA9F1A9290E80008B234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EA9E1A9290E80008B234 /* main.m */; };
 		89D5EAA21A9290E80008B234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAA11A9290E80008B234 /* AppDelegate.m */; };
 		89D5EAA51A9290E80008B234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAA41A9290E80008B234 /* ViewController.m */; };
@@ -60,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		881648741A9690B500373948 /* marczak_adam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marczak_adam.jpg; path = ../../Downloads/marczak_adam.jpg; sourceTree = "<group>"; };
-		881648761A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mapa_3D_kampus_pwr_10_10_2012_www.jpg; path = ../../Downloads/mapa_3D_kampus_pwr_10_10_2012_www.jpg; sourceTree = "<group>"; };
 		883E3E4B1A9D025C00F25BE1 /* PlanJuwenalii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanJuwenalii.h; path = ../PlanJuwenalii.h; sourceTree = "<group>"; };
 		883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanJuwenalii.m; path = ../PlanJuwenalii.m; sourceTree = "<group>"; };
 		883E3E4E1A9D031800F25BE1 /* Poniedzialek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poniedzialek.h; sourceTree = "<group>"; };
@@ -105,6 +104,7 @@
 		888966F61AACD88800F7065A /* rect4195.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rect4195.png; path = ../Juwenalia/rect4195.png; sourceTree = "<group>"; };
 		888966F71AACD88800F7065A /* sendphoto_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sendphoto_color.png; path = ../Juwenalia/sendphoto_color.png; sourceTree = "<group>"; };
 		888966F81AACD88800F7065A /* twitter-312464_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter-312464_640.png"; path = "../Juwenalia/twitter-312464_640.png"; sourceTree = "<group>"; };
+		888966FF1AACD92E00F7065A /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mapa_3D_kampus_pwr_10_10_2012_www.jpg; path = ../Juwenalia/mapa_3D_kampus_pwr_10_10_2012_www.jpg; sourceTree = "<group>"; };
 		89D5EA991A9290E80008B234 /* Juwenalia app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juwenalia app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D5EA9D1A9290E80008B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D5EA9E1A9290E80008B234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -141,6 +141,7 @@
 		881648731A96908700373948 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				888966FF1AACD92E00F7065A /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */,
 				888966F31AACD88800F7065A /* facebook-like-76535_640.png */,
 				888966F41AACD88800F7065A /* rect4155.png */,
 				888966F51AACD88800F7065A /* rect4185.png */,
@@ -157,7 +158,6 @@
 				888966E31AACD83200F7065A /* 2.png */,
 				888966E11AACD82900F7065A /* 1.png */,
 				888966DF1AACD81E00F7065A /* kalendarz.png */,
-				881648761A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */,
 				881648741A9690B500373948 /* marczak_adam.jpg */,
 			);
 			name = Images;
@@ -332,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				888966F11AACD86C00F7065A /* call-center-311585_640.png in Resources */,
+				888967001AACD92E00F7065A /* mapa_3D_kampus_pwr_10_10_2012_www.jpg in Resources */,
 				89D5EAA81A9290E80008B234 /* Main.storyboard in Resources */,
 				888966E41AACD83200F7065A /* 2.png in Resources */,
 				888966EA1AACD85300F7065A /* arrow-310627_1280.png in Resources */,
@@ -351,7 +352,6 @@
 				888966FE1AACD88800F7065A /* twitter-312464_640.png in Resources */,
 				888966E81AACD84A00F7065A /* button.jpg in Resources */,
 				888966FA1AACD88800F7065A /* rect4155.png in Resources */,
-				881648771A9693F000373948 /* mapa_3D_kampus_pwr_10_10_2012_www.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

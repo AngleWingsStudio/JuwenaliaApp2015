@@ -134,100 +134,93 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f9g-Q8-y4w">
-                                        <rect key="frame" x="25" y="301" width="271" height="40"/>
+                                        <rect key="frame" x="0.0" y="296" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
-                                        <state key="normal" title="Środa" backgroundImage="button.jpg">
+                                        <state key="normal" title="Środa" backgroundImage="rect4185.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="sroda:" destination="pVe-m3-Kra" eventType="touchUpInside" id="axa-Ro-Olh"/>
                                             <segue destination="9xc-Wu-sPS" kind="modal" id="JWd-wz-ZX2"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mqv-fj-DkX">
-                                        <rect key="frame" x="25" y="360" width="271" height="40"/>
+                                        <rect key="frame" x="0.0" y="351" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
-                                        <state key="normal" title="Czwartek" backgroundImage="button.jpg">
+                                        <state key="normal" title="Czwartek" backgroundImage="rect4185.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="czwartek:" destination="pVe-m3-Kra" eventType="touchUpInside" id="FL6-8C-0sV"/>
                                             <segue destination="uAM-Yj-7Gw" kind="modal" id="7W7-hc-4Os"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6px-8t-DbF">
-                                        <rect key="frame" x="25" y="419" width="271" height="40"/>
+                                        <rect key="frame" x="0.0" y="413" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
-                                        <state key="normal" title="Piątek" backgroundImage="button.jpg">
+                                        <state key="normal" title="Piątek" backgroundImage="rect4185.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="piatek:" destination="pVe-m3-Kra" eventType="touchUpInside" id="rOU-Dg-0tC"/>
                                             <segue destination="QaC-z8-Rik" kind="modal" id="P1O-ee-gjD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ltq-9c-wUZ">
-                                        <rect key="frame" x="25" y="478" width="271" height="40"/>
+                                        <rect key="frame" x="0.0" y="470" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
-                                        <state key="normal" title="Sobota" backgroundImage="button.jpg">
+                                        <state key="normal" title="Sobota" backgroundImage="rect4185.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="sobota:" destination="pVe-m3-Kra" eventType="touchUpInside" id="4eJ-fw-Xi3"/>
                                             <segue destination="Gp0-8o-qro" kind="modal" id="hjX-of-OWR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LGW-cD-elx">
-                                        <rect key="frame" x="25" y="242" width="271" height="41"/>
+                                        <rect key="frame" x="0.0" y="236" width="320" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
-                                        <state key="normal" title="Wtorek" backgroundImage="button.jpg">
+                                        <state key="normal" title="Wtorek" backgroundImage="rect4185.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="wtorek:" destination="pVe-m3-Kra" eventType="touchUpInside" id="B5I-bG-Swu"/>
                                             <segue destination="gH1-37-5g1" kind="modal" id="KYP-yo-xb1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NJo-2p-rIx">
-                                        <rect key="frame" x="25" y="180" width="271" height="44"/>
+                                        <rect key="frame" x="0.0" y="174" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
-                                        <state key="normal" title="Poniedziałek" backgroundImage="button.jpg">
+                                        <state key="normal" title="Poniedziałek" backgroundImage="rect4185.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="poniedzialek:" destination="pVe-m3-Kra" eventType="touchUpInside" id="6nb-Ot-lBV"/>
                                             <segue destination="W6T-Tg-p39" kind="modal" id="2c8-W1-aQj"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zrzut ekranu 2015-03-07 o 00.45.01.png" id="B3w-nU-juQ">
-                                        <rect key="frame" x="49" y="14" width="223" height="148"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hqc-ou-tyW">
-                                        <rect key="frame" x="25" y="534" width="271" height="40"/>
+                                        <rect key="frame" x="0.0" y="526" width="320" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
-                                        <state key="normal" title="Niedziela" backgroundImage="button.jpg">
+                                        <state key="normal" title="Niedziela" backgroundImage="rect4185.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="niedziela:" destination="pVe-m3-Kra" eventType="touchUpInside" id="zPM-IC-LmY"/>
                                             <segue destination="ByQ-fE-btP" kind="modal" id="Qxl-zT-MXk"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kalendarz.png" id="B3w-nU-juQ">
+                                        <rect key="frame" x="60" y="24" width="201" height="129"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </scrollView>
@@ -240,13 +233,6 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
-                        <outlet property="Czwartek" destination="mqv-fj-DkX" id="sd3-sH-xGS"/>
-                        <outlet property="Niedziela" destination="Hqc-ou-tyW" id="KL4-09-Uh8"/>
-                        <outlet property="Piatek" destination="6px-8t-DbF" id="r3S-vK-9OV"/>
-                        <outlet property="Poniedzialek" destination="NJo-2p-rIx" id="mRT-rV-bZA"/>
-                        <outlet property="Sobota" destination="Ltq-9c-wUZ" id="Ghq-Is-hRn"/>
-                        <outlet property="Sroda" destination="f9g-Q8-y4w" id="YmU-pb-eV0"/>
-                        <outlet property="Wtorek" destination="LGW-cD-elx" id="1y8-Ff-KSy"/>
                         <outlet property="scroller" destination="okA-fb-AYo" id="SAO-hZ-Wc5"/>
                     </connections>
                 </viewController>
@@ -1983,16 +1969,16 @@
         <image name="1.png" width="500" height="500"/>
         <image name="2.png" width="1500" height="500"/>
         <image name="Ikona.png" width="150" height="150"/>
-        <image name="Zrzut ekranu 2015-03-07 o 00.45.01.png" width="218" height="214"/>
         <image name="arrow-310612_1280.png" width="1280" height="640"/>
         <image name="arrow-310627_1280.png" width="1280" height="640"/>
-        <image name="button.jpg" width="588" height="83"/>
         <image name="call-center-311583_640.png" width="471" height="640"/>
         <image name="call-center-311584_640.png" width="471" height="640"/>
         <image name="call-center-311585_640.png" width="471" height="640"/>
         <image name="facebook-like-76535_640.png" width="640" height="597"/>
+        <image name="kalendarz.png" width="152" height="159"/>
         <image name="mapa_3D_kampus_pwr_10_10_2012_www.jpg" width="1701" height="1208"/>
         <image name="marczak_adam.jpg" width="160" height="200"/>
+        <image name="rect4185.png" width="782" height="117"/>
         <image name="sendphoto_color.png" width="57" height="60"/>
         <image name="twitter-312464_640.png" width="640" height="520"/>
     </resources>

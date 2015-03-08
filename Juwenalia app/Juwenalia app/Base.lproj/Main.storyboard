@@ -83,12 +83,12 @@
                                     <segue destination="Od0-oM-dd7" kind="modal" id="g4p-Ih-Cj3"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ikona.png" id="YVX-Nd-q7w">
-                                <rect key="frame" x="43" y="79" width="234" height="202"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-310612_1280.png" id="yS1-w3-OSJ">
                                 <rect key="frame" x="90" y="316" width="152" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ikona.png" id="YVX-Nd-q7w">
+                                <rect key="frame" x="43" y="79" width="234" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1988,8 +1988,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="R9Y-4I-c04"/>
         <segue reference="apL-ZD-X57"/>
+        <segue reference="rxp-hu-b14"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.49970418109999998" green="0.6445676306" blue="0.82843440769999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>

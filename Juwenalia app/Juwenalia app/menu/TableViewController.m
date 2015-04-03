@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "TableCell.h"
+#import "SWRevealViewController.h"
 
 @interface TableViewController ()
 
@@ -17,6 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _barButton.target = self.revealViewController;
+    _barButton.action = @selector(revealToggle:);
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

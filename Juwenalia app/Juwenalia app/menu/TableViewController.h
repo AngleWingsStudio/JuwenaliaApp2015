@@ -14,4 +14,6 @@
 @property(nonatomic,strong) NSArray *Title;
 @property(nonatomic,strong) NSArray *Description;
 
+@property (weak,nonatomic) IBOutlet UIBarButtonItem *barButton;
+
 @end

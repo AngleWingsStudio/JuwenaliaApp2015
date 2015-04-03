@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface TableCell : UITableViewCell
 
 @property(strong,nonatomic) IBOutlet UILabel *TitleLabel;

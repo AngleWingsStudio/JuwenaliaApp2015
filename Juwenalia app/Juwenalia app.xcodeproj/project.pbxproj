@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8826142C1AACD9DE003F8956 /* marczak_adam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8826142B1AACD9DE003F8956 /* marczak_adam.jpg */; };
+		882F0F711ACF4BBD006E87CC /* not_available_icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 882F0F701ACF4BBD006E87CC /* not_available_icon.gif */; };
 		883E3E4D1A9D025C00F25BE1 /* PlanJuwenalii.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */; };
 		883E3E501A9D031800F25BE1 /* Poniedzialek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E4F1A9D031800F25BE1 /* Poniedzialek.m */; };
 		883E3E531A9D033100F25BE1 /* Wtorek.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E521A9D033100F25BE1 /* Wtorek.m */; };
@@ -22,8 +23,6 @@
 		883E3E6E1A9D077700F25BE1 /* oJuwenaliach.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E6D1A9D077700F25BE1 /* oJuwenaliach.m */; };
 		883E3E711A9D079E00F25BE1 /* Sponsorzy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E701A9D079E00F25BE1 /* Sponsorzy.m */; };
 		883E3E741A9D07B200F25BE1 /* Kamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E3E731A9D07B200F25BE1 /* Kamera.m */; };
-		885338581ACEE83800DB6DBC /* not_available_icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 885338571ACEE83800DB6DBC /* not_available_icon.gif */; };
-		8853387C1ACEEA1B00DB6DBC /* not_available_icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 885338711ACEEA1B00DB6DBC /* not_available_icon.gif */; };
 		8853387F1ACEEA1B00DB6DBC /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 885338791ACEEA1B00DB6DBC /* TableCell.m */; };
 		885338801ACEEA1B00DB6DBC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8853387B1ACEEA1B00DB6DBC /* TableViewController.m */; };
 		888966E01AACD81E00F7065A /* kalendarz.png in Resources */ = {isa = PBXBuildFile; fileRef = 888966DF1AACD81E00F7065A /* kalendarz.png */; };
@@ -67,6 +66,7 @@
 
 /* Begin PBXFileReference section */
 		8826142B1AACD9DE003F8956 /* marczak_adam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = marczak_adam.jpg; path = ../Juwenalia/marczak_adam.jpg; sourceTree = "<group>"; };
+		882F0F701ACF4BBD006E87CC /* not_available_icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = not_available_icon.gif; path = ../Juwenalia/not_available_icon.gif; sourceTree = "<group>"; };
 		883E3E4B1A9D025C00F25BE1 /* PlanJuwenalii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanJuwenalii.h; path = ../PlanJuwenalii.h; sourceTree = "<group>"; };
 		883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanJuwenalii.m; path = ../PlanJuwenalii.m; sourceTree = "<group>"; };
 		883E3E4E1A9D031800F25BE1 /* Poniedzialek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poniedzialek.h; sourceTree = "<group>"; };
@@ -95,8 +95,6 @@
 		883E3E701A9D079E00F25BE1 /* Sponsorzy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sponsorzy.m; sourceTree = "<group>"; };
 		883E3E721A9D07B200F25BE1 /* Kamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kamera.h; sourceTree = "<group>"; };
 		883E3E731A9D07B200F25BE1 /* Kamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kamera.m; sourceTree = "<group>"; };
-		885338571ACEE83800DB6DBC /* not_available_icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = not_available_icon.gif; path = ../../Documents/menu/Images/not_available_icon.gif; sourceTree = "<group>"; };
-		885338711ACEEA1B00DB6DBC /* not_available_icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = not_available_icon.gif; path = "Juwenalia app/menu/Images/not_available_icon.gif"; sourceTree = "<group>"; };
 		885338781ACEEA1B00DB6DBC /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
 		885338791ACEEA1B00DB6DBC /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
 		8853387A1ACEEA1B00DB6DBC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -159,7 +157,7 @@
 		881648731A96908700373948 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				885338571ACEE83800DB6DBC /* not_available_icon.gif */,
+				882F0F701ACF4BBD006E87CC /* not_available_icon.gif */,
 				8F255A801ACEC057002740E0 /* napis-e1420944286276.png */,
 				8826142B1AACD9DE003F8956 /* marczak_adam.jpg */,
 				888966FF1AACD92E00F7065A /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */,
@@ -179,7 +177,6 @@
 				888966E31AACD83200F7065A /* 2.png */,
 				888966E11AACD82900F7065A /* 1.png */,
 				888966DF1AACD81E00F7065A /* kalendarz.png */,
-				885338711ACEEA1B00DB6DBC /* not_available_icon.gif */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -379,7 +376,6 @@
 				89D5EAAD1A9290E80008B234 /* LaunchScreen.xib in Resources */,
 				888966F91AACD88800F7065A /* facebook-like-76535_640.png in Resources */,
 				888966E21AACD82900F7065A /* 1.png in Resources */,
-				8853387C1ACEEA1B00DB6DBC /* not_available_icon.gif in Resources */,
 				888966E01AACD81E00F7065A /* kalendarz.png in Resources */,
 				89D5EAAA1A9290E80008B234 /* Images.xcassets in Resources */,
 				888966FC1AACD88800F7065A /* rect4195.png in Resources */,
@@ -391,7 +387,7 @@
 				8F255A811ACEC057002740E0 /* napis-e1420944286276.png in Resources */,
 				888966E81AACD84A00F7065A /* button.jpg in Resources */,
 				888966FA1AACD88800F7065A /* rect4155.png in Resources */,
-				885338581ACEE83800DB6DBC /* not_available_icon.gif in Resources */,
+				882F0F711ACF4BBD006E87CC /* not_available_icon.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

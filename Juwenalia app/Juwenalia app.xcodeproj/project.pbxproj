@@ -47,6 +47,8 @@
 		89D5EAAD1A9290E80008B234 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89D5EAAB1A9290E80008B234 /* LaunchScreen.xib */; };
 		89D5EAB91A9290E80008B234 /* Juwenalia_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAB81A9290E80008B234 /* Juwenalia_appTests.m */; };
 		8F255A7C1ACEAB27002740E0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F255A7B1ACEAB27002740E0 /* SWRevealViewController.m */; };
+		8F255A7F1ACEBB8B002740E0 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F255A7E1ACEBB8B002740E0 /* NavigationViewController.m */; };
+		8F255A811ACEC057002740E0 /* napis-e1420944286276.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F255A801ACEC057002740E0 /* napis-e1420944286276.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,9 @@
 		89D5EAB81A9290E80008B234 /* Juwenalia_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Juwenalia_appTests.m; sourceTree = "<group>"; };
 		8F255A7A1ACEAB27002740E0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		8F255A7B1ACEAB27002740E0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8F255A7D1ACEBB8B002740E0 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		8F255A7E1ACEBB8B002740E0 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		8F255A801ACEC057002740E0 /* napis-e1420944286276.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "napis-e1420944286276.png"; path = "../Juwenalia/napis-e1420944286276.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +149,7 @@
 		881648731A96908700373948 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8F255A801ACEC057002740E0 /* napis-e1420944286276.png */,
 				8826142B1AACD9DE003F8956 /* marczak_adam.jpg */,
 				888966FF1AACD92E00F7065A /* mapa_3D_kampus_pwr_10_10_2012_www.jpg */,
 				888966F31AACD88800F7065A /* facebook-like-76535_640.png */,
@@ -195,6 +201,8 @@
 				89D5EAA31A9290E80008B234 /* ViewController.h */,
 				89D5EAA41A9290E80008B234 /* ViewController.m */,
 				89D5EAA61A9290E80008B234 /* Main.storyboard */,
+				8F255A7D1ACEBB8B002740E0 /* NavigationViewController.h */,
+				8F255A7E1ACEBB8B002740E0 /* NavigationViewController.m */,
 				883E3E4B1A9D025C00F25BE1 /* PlanJuwenalii.h */,
 				883E3E4C1A9D025C00F25BE1 /* PlanJuwenalii.m */,
 				883E3E4E1A9D031800F25BE1 /* Poniedzialek.h */,
@@ -355,6 +363,7 @@
 				888966FD1AACD88800F7065A /* sendphoto_color.png in Resources */,
 				8826142C1AACD9DE003F8956 /* marczak_adam.jpg in Resources */,
 				888966FE1AACD88800F7065A /* twitter-312464_640.png in Resources */,
+				8F255A811ACEC057002740E0 /* napis-e1420944286276.png in Resources */,
 				888966E81AACD84A00F7065A /* button.jpg in Resources */,
 				888966FA1AACD88800F7065A /* rect4155.png in Resources */,
 			);
@@ -381,6 +390,7 @@
 				883E3E6B1A9D073500F25BE1 /* Kontakt.m in Sources */,
 				8F255A7C1ACEAB27002740E0 /* SWRevealViewController.m in Sources */,
 				883E3E6E1A9D077700F25BE1 /* oJuwenaliach.m in Sources */,
+				8F255A7F1ACEBB8B002740E0 /* NavigationViewController.m in Sources */,
 				883E3E5F1A9D068300F25BE1 /* Sobota.m in Sources */,
 				883E3E4D1A9D025C00F25BE1 /* PlanJuwenalii.m in Sources */,
 				883E3E501A9D031800F25BE1 /* Poniedzialek.m in Sources */,

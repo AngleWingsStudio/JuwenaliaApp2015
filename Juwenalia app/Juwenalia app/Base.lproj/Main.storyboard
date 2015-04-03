@@ -1,9 +1,322 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Ctj-3i-EhE">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
+        <!--Reveal View Controller-->
+        <scene sceneID="OlP-oI-wya">
+            <objects>
+                <viewController id="Ctj-3i-EhE" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E2L-ja-UBo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="dE0-7w-duV" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegue" id="9Oe-TQ-G0H"/>
+                        <segue destination="CCV-J3-Awh" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegue" id="ExC-dp-3s9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6te-Jv-mG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-583" y="-192"/>
+        </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="1q3-wr-aHN">
+            <objects>
+                <tableViewController id="CCV-J3-Awh" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="74" sectionHeaderHeight="22" sectionFooterHeight="22" id="us0-0Z-mKU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="rwg-2a-1cJ">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OBRAZEK" textLabel="585-W5-VXt" imageView="L7J-oo-KT5" rowHeight="74" style="IBUITableViewCellStyleDefault" id="9Xg-1n-GxX">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Xg-1n-GxX" id="TFL-ig-nPH">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="585-W5-VXt">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="napis-e1420944286276.png" id="L7J-oo-KT5">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Aktualnosci" textLabel="oKz-kd-EMS" rowHeight="32" style="IBUITableViewCellStyleDefault" id="Cdd-jz-2LV">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cdd-jz-2LV" id="VMh-1D-acP">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Aktualności" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oKz-kd-EMS">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Suf-xx-Hep" kind="custom" customClass="SWRevealViewControllerSegue" id="gpd-Il-oWM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Plan Juwenalii" textLabel="opg-It-Zip" rowHeight="32" style="IBUITableViewCellStyleDefault" id="Dxj-hs-49x">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dxj-hs-49x" id="eRJ-Ad-O8r">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Plan Juwenalii" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="opg-It-Zip">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="pVe-m3-Kra" kind="custom" customClass="SWRevealViewControllerSegue" id="xqy-zt-h4p"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="Poniedzialek" textLabel="t6Z-NH-EHo" rowHeight="32" style="IBUITableViewCellStyleDefault" id="bJc-97-sRm">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bJc-97-sRm" id="TjP-1a-pYR">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Poniedziałek" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t6Z-NH-EHo">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="W6T-Tg-p39" kind="custom" customClass="SWRevealViewControllerSegue" id="lCy-mo-GiF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="Wtorek" textLabel="YRK-VQ-d3S" rowHeight="32" style="IBUITableViewCellStyleDefault" id="dTy-ZN-5E1">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dTy-ZN-5E1" id="aCf-1p-wYj">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Wtorek" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YRK-VQ-d3S">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="gH1-37-5g1" kind="custom" customClass="SWRevealViewControllerSegue" id="him-hX-u3x"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="Sroda" textLabel="wb4-gh-rNM" rowHeight="32" style="IBUITableViewCellStyleDefault" id="KqS-Bv-nqE">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KqS-Bv-nqE" id="a0Z-c4-HXo">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Środa" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wb4-gh-rNM">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="9xc-Wu-sPS" kind="custom" customClass="SWRevealViewControllerSegue" id="yRB-sF-SEs"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="Czwartek" textLabel="KHH-BJ-vne" rowHeight="32" style="IBUITableViewCellStyleDefault" id="mMd-fh-Y6P">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mMd-fh-Y6P" id="Fm0-ne-q6v">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Czwartek" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KHH-BJ-vne">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="uAM-Yj-7Gw" kind="custom" customClass="SWRevealViewControllerSegue" id="sZe-Fa-sqL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="Piatek" textLabel="Mtv-Qg-MIY" rowHeight="32" style="IBUITableViewCellStyleDefault" id="tM7-ym-m4e">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tM7-ym-m4e" id="xWP-xh-maW">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Piątek" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mtv-Qg-MIY">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="QaC-z8-Rik" kind="custom" customClass="SWRevealViewControllerSegue" id="DEu-PL-EmQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="Sobota" textLabel="jKU-fH-hlo" rowHeight="32" style="IBUITableViewCellStyleDefault" id="kFY-J5-ZLG">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kFY-J5-ZLG" id="7zl-s6-yhz">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Sobota" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jKU-fH-hlo">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Gp0-8o-qro" kind="custom" customClass="SWRevealViewControllerSegue" id="Y93-cl-s3j"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationLevel="4" indentationWidth="10" reuseIdentifier="Niedziela" textLabel="x3W-TB-Pee" rowHeight="32" style="IBUITableViewCellStyleDefault" id="fxM-pP-lQg">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fxM-pP-lQg" id="QjK-f5-edd">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Niedziela" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x3W-TB-Pee">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="ByQ-fE-btP" kind="custom" customClass="SWRevealViewControllerSegue" id="RaJ-Jh-mkt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Mapa" textLabel="LSq-xK-k0H" rowHeight="32" style="IBUITableViewCellStyleDefault" id="r8k-Ob-Rd4">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r8k-Ob-Rd4" id="BMd-yK-hqm">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Mapa" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LSq-xK-k0H">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="Od0-oM-dd7" kind="custom" customClass="SWRevealViewControllerSegue" id="MRy-t6-osa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Kontakt" textLabel="YWC-nR-SAf" rowHeight="32" style="IBUITableViewCellStyleDefault" id="RCn-vi-aaV">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RCn-vi-aaV" id="xfK-sj-53D">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Kontakt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YWC-nR-SAf">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="ON8-vs-KK6" kind="custom" customClass="SWRevealViewControllerSegue" id="qwr-Dm-zPu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="o Juwenaliach" textLabel="osx-5w-B8f" rowHeight="32" style="IBUITableViewCellStyleDefault" id="WOv-Yz-v0Z">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WOv-Yz-v0Z" id="XAI-NK-dxr">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="O Juwenaliach" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="osx-5w-B8f">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="tQT-Q7-diq" kind="custom" customClass="SWRevealViewControllerSegue" id="Mw1-J8-cTo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Sponsorzy" textLabel="QS6-Ri-HoL" rowHeight="32" style="IBUITableViewCellStyleDefault" id="U4y-ca-mjZ">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U4y-ca-mjZ" id="SYM-EC-npx">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Sponsorzy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QS6-Ri-HoL">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="eFc-w2-nAx" kind="custom" customClass="SWRevealViewControllerSegue" id="onk-jy-dP3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Kamera" textLabel="aMM-w1-Amh" rowHeight="32" style="IBUITableViewCellStyleDefault" id="H2i-ZT-bvM">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H2i-ZT-bvM" id="Mpy-XN-rNk">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Nagraj Film" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aMM-w1-Amh">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="UpG-pp-SRe" kind="custom" customClass="SWRevealViewControllerSegue" id="cj4-qx-kTJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="CCV-J3-Awh" id="34t-gf-r1I"/>
+                            <outlet property="delegate" destination="CCV-J3-Awh" id="gup-dg-9BG"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1dS-sf-Jpb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-212" y="-192"/>
+        </scene>
         <!--Plan Juwenalii-->
         <scene sceneID="hjh-yz-WtX">
             <objects>
@@ -23,11 +336,6 @@
                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem title="Plan Juwenalii" id="it9-2a-lY1">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="R5C-RC-r3J"/>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="okA-fb-AYo">
                                 <rect key="frame" x="1" y="44" width="320" height="580"/>
@@ -129,16 +437,20 @@
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                     </view>
+                    <navigationItem key="navigationItem" title="Plan Juwenalii" id="it9-2a-lY1">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="R5C-RC-r3J"/>
+                    </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="592"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="R5C-RC-r3J" id="TMj-R2-hLt"/>
                         <outlet property="scroller" destination="okA-fb-AYo" id="SAO-hZ-Wc5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAL-n5-9hv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="290" y="336"/>
+            <point key="canvasLocation" x="208" y="370"/>
         </scene>
         <!--Poniedziałek-->
         <scene sceneID="ggW-Kq-xir">
@@ -154,19 +466,6 @@
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="7H5-WT-DSr">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" style="plain" id="cOX-fA-nVu">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I4L-ev-tgZ">
-                                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Menu">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="deO-iN-eZx">
                                 <rect key="frame" x="0.0" y="44" width="320" height="580"/>
@@ -279,10 +578,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7H5-WT-DSr">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="cOX-fA-nVu"/>
+                    </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="592"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="cOX-fA-nVu" id="Ydg-2H-RTf"/>
                         <outlet property="scroller" destination="deO-iN-eZx" id="Mxx-CY-rXB"/>
                     </connections>
                 </viewController>
@@ -304,19 +607,6 @@
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="An2-l5-aBK">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" style="plain" id="rhx-Y3-Gg5">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g3s-dN-Xdt">
-                                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Menu">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="9eF-zs-EUO">
                                 <rect key="frame" x="0.0" y="48" width="320" height="580"/>
@@ -436,9 +726,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="An2-l5-aBK">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="rhx-Y3-Gg5"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="rhx-Y3-Gg5" id="dYN-hB-d5H"/>
                         <outlet property="scroller" destination="9eF-zs-EUO" id="2Vd-Uc-wgo"/>
                     </connections>
                 </viewController>
@@ -460,19 +754,6 @@
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="Vl1-FF-77P">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" style="plain" id="wQ6-m6-5Mm">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mp9-JN-RuI">
-                                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Menu">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="HuB-fM-IJt">
                                 <rect key="frame" x="0.0" y="38" width="320" height="580"/>
@@ -577,10 +858,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Vl1-FF-77P">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="wQ6-m6-5Mm"/>
+                    </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="592"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="wQ6-m6-5Mm" id="Y81-fH-ogI"/>
                         <outlet property="scroller" destination="HuB-fM-IJt" id="Ahh-4U-oN0"/>
                     </connections>
                 </viewController>
@@ -710,19 +995,6 @@
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="OhX-w1-Rsb">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" style="plain" id="CRW-WG-8Eo">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U3n-IH-ZtI">
-                                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Menu">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Czwartek" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1h4-4d-kRd">
                                 <rect key="frame" x="114" y="23" width="93" height="21"/>
@@ -734,9 +1006,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="OhX-w1-Rsb">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="CRW-WG-8Eo"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="CRW-WG-8Eo" id="XJN-fe-Hof"/>
                         <outlet property="scroller" destination="Z8a-Ju-WNB" id="8c8-0M-O4w"/>
                     </connections>
                 </viewController>
@@ -866,19 +1142,6 @@
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="Jso-KP-e4b">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="xN4-Gq-Hta">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="apu-Bh-XOl">
-                                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Menu">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piątek" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2cR-ED-Td1">
                                 <rect key="frame" x="134" y="20" width="53" height="24"/>
@@ -890,9 +1153,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Jso-KP-e4b">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="xN4-Gq-Hta"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="xN4-Gq-Hta" id="QBR-8c-cBk"/>
                         <outlet property="scroller" destination="oJ9-Hc-hbv" id="vPG-Kh-oXB"/>
                     </connections>
                 </viewController>
@@ -914,19 +1181,6 @@
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="Kwz-7j-n30">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" style="plain" id="KuT-is-08r">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vaD-Tk-xTZ">
-                                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Menu">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="J4S-m9-fLg">
                                 <rect key="frame" x="0.0" y="40" width="320" height="580"/>
@@ -1046,9 +1300,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Kwz-7j-n30">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="KuT-is-08r"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="KuT-is-08r" id="giZ-NS-OQz"/>
                         <outlet property="scroller" destination="J4S-m9-fLg" id="O9a-Wd-oH5"/>
                     </connections>
                 </viewController>
@@ -1070,19 +1328,6 @@
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="jwe-tV-076">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" style="plain" id="fU7-PV-ooW">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="emr-iN-Nwg">
-                                                <rect key="frame" x="-23" y="-15" width="71" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Menu">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="YXJ-ig-78w">
                                 <rect key="frame" x="0.0" y="44" width="320" height="580"/>
@@ -1202,15 +1447,35 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jwe-tV-076">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="bookmarks" id="fU7-PV-ooW"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="fU7-PV-ooW" id="FBC-XG-NCr"/>
                         <outlet property="scroller" destination="YXJ-ig-78w" id="Wez-Pb-lGB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lVQ-Qf-ehV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1894" y="169"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="F0K-HZ-0gy">
+            <objects>
+                <navigationController id="dE0-7w-duV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="K5T-VC-ZKc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Suf-xx-Hep" kind="relationship" relationship="rootViewController" id="ctg-QJ-dy2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TKg-ZD-8eU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-583" y="445"/>
         </scene>
         <!--Aktualności-->
         <scene sceneID="GEO-BK-p5Y">
@@ -1302,15 +1567,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yO2-cf-9CY">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="PvR-jp-wpf"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="PvR-jp-wpf" id="rz2-FA-HHH"/>
                         <outlet property="scroller" destination="UL0-Ds-vab" id="pGK-HM-8EL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Wf-4v-mye" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-575" y="992"/>
+            <point key="canvasLocation" x="-182" y="503"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="KjX-pF-MRg">
@@ -1323,11 +1592,6 @@
                             <navigationBar contentMode="scaleToFill" id="x49-1z-Gwt">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem id="BeS-O1-KPu">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="lyy-lh-acX"/>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mapa kampusu politechniki" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sx9-bF-UU1">
                                 <rect key="frame" x="50" y="50" width="222" height="32"/>
@@ -1357,11 +1621,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BeS-O1-KPu">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="lyy-lh-acX"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="barButton" destination="lyy-lh-acX" id="0L2-Qs-mUR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHb-yj-c5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-147" y="992"/>
+            <point key="canvasLocation" x="-583" y="1042"/>
         </scene>
         <!--Kontakt-->
         <scene sceneID="thp-hF-BxD">
@@ -1457,11 +1727,6 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="2yS-pl-Mzl">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="A7n-59-W7O"/>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kontakt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3y8-YD-aEi">
                                 <rect key="frame" x="124" y="20" width="73" height="26"/>
@@ -1494,7 +1759,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="2yS-pl-Mzl">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="A7n-59-W7O"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="barButton" destination="A7n-59-W7O" id="9AS-g5-Jm7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IMK-1j-8NK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1563,11 +1834,6 @@
                                         <textAttributes key="titleTextAttributes">
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                         </textAttributes>
-                                        <items>
-                                            <navigationItem id="2FU-Np-XYs">
-                                                <barButtonItem key="leftBarButtonItem" title="Menu" id="OQl-RD-9kM"/>
-                                            </navigationItem>
-                                        </items>
                                     </navigationBar>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Juwenaliach" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2o5-zX-Nkr">
                                         <rect key="frame" x="94" y="23" width="132" height="21"/>
@@ -1615,10 +1881,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="2FU-Np-XYs">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="OQl-RD-9kM"/>
+                    </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="592"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="OQl-RD-9kM" id="QAE-sy-ZAr"/>
                         <outlet property="scroller" destination="iWi-WU-5gu" id="YRn-Ll-NS5"/>
                     </connections>
                 </viewController>
@@ -1642,11 +1912,6 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
                                     <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem id="3Es-V9-0Fm">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="lX7-IG-NI2"/>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sponsorzy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fkl-QM-ClU">
                                 <rect key="frame" x="111" y="17" width="98" height="21"/>
@@ -1726,11 +1991,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="3Es-V9-0Fm">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="lX7-IG-NI2"/>
+                    </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="592"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="618"/>
                     <connections>
+                        <outlet property="barButton" destination="lX7-IG-NI2" id="GfL-Qd-yyP"/>
                         <outlet property="scroller" destination="ILH-XT-Pk8" id="lhI-tt-ejk"/>
                     </connections>
                 </viewController>
@@ -1749,11 +2018,6 @@
                             <navigationBar contentMode="scaleToFill" id="C1T-WU-whl">
                                 <rect key="frame" x="-7" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem id="28H-yJ-eqt">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="BKi-gp-Pi3"/>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sendphoto_color.png" id="TGf-fI-wnf">
                                 <rect key="frame" x="46" y="79" width="61" height="69"/>
@@ -1810,7 +2074,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="28H-yJ-eqt">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="BKi-gp-Pi3"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="barButton" destination="BKi-gp-Pi3" id="qAa-tq-lyn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yth-Ad-epN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1828,6 +2098,7 @@
         <image name="kalendarz.png" width="152" height="159"/>
         <image name="mapa_3D_kampus_pwr_10_10_2012_www.jpg" width="1701" height="1208"/>
         <image name="marczak_adam.jpg" width="160" height="200"/>
+        <image name="napis-e1420944286276.png" width="150" height="62"/>
         <image name="rect4185.png" width="782" height="117"/>
         <image name="sendphoto_color.png" width="57" height="60"/>
         <image name="twitter-312464_640.png" width="640" height="520"/>
@@ -1837,5 +2108,15 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="RaJ-Jh-mkt"/>
+        <segue reference="yRB-sF-SEs"/>
+        <segue reference="lCy-mo-GiF"/>
+        <segue reference="him-hX-u3x"/>
+        <segue reference="gpd-Il-oWM"/>
+        <segue reference="Y93-cl-s3j"/>
+        <segue reference="DEu-PL-EmQ"/>
+        <segue reference="sZe-Fa-sqL"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.49970418109999998" green="0.6445676306" blue="0.82843440769999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>

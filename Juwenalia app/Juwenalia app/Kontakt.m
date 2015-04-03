@@ -7,7 +7,17 @@
 //
 
 #import "Kontakt.h"
+#import "SWRevealViewController.h"
 
 @implementation Kontakt
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    _barButton.target = self.revealViewController;
+    _barButton.action = @selector(revealToggle:);
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+
+}
 
 @end

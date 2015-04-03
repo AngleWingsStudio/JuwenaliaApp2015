@@ -7,11 +7,17 @@
 //
 
 #import "Piatek.h"
+#import "SWRevealViewController.h"
 
 @implementation Piatek
 
 -(void)viewDidLoad {
     [super viewDidLoad];
+    _barButton.target = self.revealViewController;
+    _barButton.action = @selector(revealToggle:);
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+
     
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(320, 580)];

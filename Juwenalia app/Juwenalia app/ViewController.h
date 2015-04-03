@@ -8,7 +8,6 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
 @end
 

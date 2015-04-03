@@ -11,6 +11,5 @@
 @interface Piatek : UIViewController
 {
     IBOutlet UIScrollView *scroller;}
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
 @end

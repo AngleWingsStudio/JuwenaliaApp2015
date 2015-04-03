@@ -46,6 +46,7 @@
 		89D5EAAA1A9290E80008B234 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D5EAA91A9290E80008B234 /* Images.xcassets */; };
 		89D5EAAD1A9290E80008B234 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89D5EAAB1A9290E80008B234 /* LaunchScreen.xib */; };
 		89D5EAB91A9290E80008B234 /* Juwenalia_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D5EAB81A9290E80008B234 /* Juwenalia_appTests.m */; };
+		8F255A791ACEA4D0002740E0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F255A781ACEA4D0002740E0 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,8 @@
 		89D5EAB21A9290E80008B234 /* Juwenalia appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Juwenalia appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D5EAB71A9290E80008B234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89D5EAB81A9290E80008B234 /* Juwenalia_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Juwenalia_appTests.m; sourceTree = "<group>"; };
+		8F255A771ACEA4D0002740E0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SlideOutMenu-2/SlideOutMenuFiles/SWRevealViewController.h"; sourceTree = "<group>"; };
+		8F255A781ACEA4D0002740E0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SlideOutMenu-2/SlideOutMenuFiles/SWRevealViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 		89D5EA9B1A9290E80008B234 /* Juwenalia app */ = {
 			isa = PBXGroup;
 			children = (
+				8F255A771ACEA4D0002740E0 /* SWRevealViewController.h */,
+				8F255A781ACEA4D0002740E0 /* SWRevealViewController.m */,
 				89D5EAA01A9290E80008B234 /* AppDelegate.h */,
 				89D5EAA11A9290E80008B234 /* AppDelegate.m */,
 				89D5EAA31A9290E80008B234 /* ViewController.h */,
@@ -374,6 +379,7 @@
 				883E3E561A9D035300F25BE1 /* Sroda.m in Sources */,
 				89D5EAA51A9290E80008B234 /* ViewController.m in Sources */,
 				883E3E6B1A9D073500F25BE1 /* Kontakt.m in Sources */,
+				8F255A791ACEA4D0002740E0 /* SWRevealViewController.m in Sources */,
 				883E3E6E1A9D077700F25BE1 /* oJuwenaliach.m in Sources */,
 				883E3E5F1A9D068300F25BE1 /* Sobota.m in Sources */,
 				883E3E4D1A9D025C00F25BE1 /* PlanJuwenalii.m in Sources */,

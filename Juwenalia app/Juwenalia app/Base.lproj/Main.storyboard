@@ -1,105 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J4n-Y5-GuD">
-                                <rect key="frame" x="90" y="269" width="121" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Dalej">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pVe-m3-Kra" kind="modal" id="rxp-hu-b14"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0kX-kA-d1G">
-                                <rect key="frame" x="250" y="403" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Kontakt">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="ON8-vs-KK6" kind="modal" id="XQa-L7-YeZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wVr-ch-zil">
-                                <rect key="frame" x="117" y="403" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Kamera">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UpG-pp-SRe" kind="modal" id="4Rs-uh-4Vc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jR7-uX-mBP">
-                                <rect key="frame" x="11" y="403" width="80" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Aktualności">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Suf-xx-Hep" kind="modal" id="9P0-5w-phO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fKD-mC-GbX">
-                                <rect key="frame" x="215" y="441" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="O juwenaliach">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="tQT-Q7-diq" kind="modal" id="jWK-mU-wR6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5wz-s2-z08">
-                                <rect key="frame" x="107" y="441" width="73" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sponsorzy">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="eFc-w2-nAx" kind="modal" id="ZyO-Rg-wK1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QR4-Wd-Wxq">
-                                <rect key="frame" x="16" y="441" width="39" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Mapa">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Od0-oM-dd7" kind="modal" id="g4p-Ih-Cj3"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-310612_1280.png" id="yS1-w3-OSJ">
-                                <rect key="frame" x="90" y="316" width="152" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ikona.png" id="YVX-Nd-q7w">
-                                <rect key="frame" x="43" y="79" width="234" height="202"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-90" y="307"/>
-        </scene>
         <!--Plan Juwenalii-->
         <scene sceneID="hjh-yz-WtX">
             <objects>
@@ -121,11 +25,7 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="Plan Juwenalii" id="it9-2a-lY1">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="R5C-RC-r3J">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="apL-ZD-X57"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="R5C-RC-r3J"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -263,13 +163,7 @@
                                                 <state key="normal" title="Menu">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="pVe-m3-Kra" kind="modal" id="R9Y-4I-c04"/>
-                                                </connections>
                                             </button>
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="qLX-i9-kYr"/>
-                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -419,9 +313,6 @@
                                                 <state key="normal" title="Menu">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="pVe-m3-Kra" kind="modal" id="Nyz-JU-N84"/>
-                                                </connections>
                                             </button>
                                         </barButtonItem>
                                     </navigationItem>
@@ -578,9 +469,6 @@
                                                 <state key="normal" title="Menu">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="pVe-m3-Kra" kind="modal" id="dIp-nZ-9k2"/>
-                                                </connections>
                                             </button>
                                         </barButtonItem>
                                     </navigationItem>
@@ -831,9 +719,6 @@
                                                 <state key="normal" title="Menu">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="pVe-m3-Kra" kind="modal" id="hqB-aF-nYA"/>
-                                                </connections>
                                             </button>
                                         </barButtonItem>
                                     </navigationItem>
@@ -990,9 +875,6 @@
                                                 <state key="normal" title="Menu">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="pVe-m3-Kra" kind="modal" id="hUz-rD-yvL"/>
-                                                </connections>
                                             </button>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1041,9 +923,6 @@
                                                 <state key="normal" title="Menu">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="pVe-m3-Kra" kind="modal" id="eZv-Ca-bQM"/>
-                                                </connections>
                                             </button>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1200,9 +1079,6 @@
                                                 <state key="normal" title="Menu">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
-                                                <connections>
-                                                    <segue destination="pVe-m3-Kra" kind="modal" id="pCN-RK-Y2f"/>
-                                                </connections>
                                             </button>
                                         </barButtonItem>
                                     </navigationItem>
@@ -1352,11 +1228,7 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem id="hJ9-2v-C3P">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="JGc-Kr-hAi">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="hze-Ls-OFx"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="JGc-Kr-hAi"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1453,11 +1325,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem id="BeS-O1-KPu">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="lyy-lh-acX">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="Qg7-nt-2FS"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="lyy-lh-acX"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1591,11 +1459,7 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem id="2yS-pl-Mzl">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="A7n-59-W7O">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="aDs-rF-J0B"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="A7n-59-W7O"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1701,11 +1565,7 @@
                                         </textAttributes>
                                         <items>
                                             <navigationItem id="2FU-Np-XYs">
-                                                <barButtonItem key="leftBarButtonItem" title="Menu" id="OQl-RD-9kM">
-                                                    <connections>
-                                                        <segue destination="BYZ-38-t0r" kind="modal" id="jQ1-nP-eQg"/>
-                                                    </connections>
-                                                </barButtonItem>
+                                                <barButtonItem key="leftBarButtonItem" title="Menu" id="OQl-RD-9kM"/>
                                             </navigationItem>
                                         </items>
                                     </navigationBar>
@@ -1784,11 +1644,7 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem id="3Es-V9-0Fm">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="lX7-IG-NI2">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="fD6-0c-4eZ"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="lX7-IG-NI2"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1895,11 +1751,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem id="28H-yJ-eqt">
-                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="BKi-gp-Pi3">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="Szo-wf-5ad"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Menu" id="BKi-gp-Pi3"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1968,8 +1820,6 @@
     <resources>
         <image name="1.png" width="500" height="500"/>
         <image name="2.png" width="1500" height="500"/>
-        <image name="Ikona.png" width="150" height="150"/>
-        <image name="arrow-310612_1280.png" width="1280" height="640"/>
         <image name="arrow-310627_1280.png" width="1280" height="640"/>
         <image name="call-center-311583_640.png" width="471" height="640"/>
         <image name="call-center-311584_640.png" width="471" height="640"/>
@@ -1987,9 +1837,5 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="Qg7-nt-2FS"/>
-        <segue reference="rxp-hu-b14"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.49970418109999998" green="0.6445676306" blue="0.82843440769999999" alpha="1" colorSpace="calibratedRGB"/>
 </document>

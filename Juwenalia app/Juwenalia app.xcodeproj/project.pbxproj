@@ -169,7 +169,10 @@
 		881648731A96908700373948 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				8F255A751ACDD51F002740E0 /* Zrzut ekranu 2015-04-02 o 21.50.32.png */,
+=======
+>>>>>>> origin/master
 				88CFCEBA1AB39091002E7506 /* Blank-calendar-1127192555.png */,
 				88CFCEB61AB38A6B002E7506 /* cloud3.png */,
 				88CFCEB71AB38A6B002E7506 /* mail.png */,
@@ -401,7 +404,10 @@
 				888966F91AACD88800F7065A /* facebook-like-76535_640.png in Resources */,
 				888966E21AACD82900F7065A /* 1.png in Resources */,
 				888966E01AACD81E00F7065A /* kalendarz.png in Resources */,
+<<<<<<< HEAD
 				8F255A761ACDD51F002740E0 /* Zrzut ekranu 2015-04-02 o 21.50.32.png in Resources */,
+=======
+>>>>>>> origin/master
 				88CFCEB51AB389A6002E7506 /* zoom.png in Resources */,
 				89D5EAAA1A9290E80008B234 /* Images.xcassets in Resources */,
 				888966FC1AACD88800F7065A /* rect4195.png in Resources */,
